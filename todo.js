@@ -3,7 +3,10 @@ const toDoInput = document.querySelector('#todo-form input');
 const toDoList = document.querySelector('#todo-list');
 
 function deleteToDo() {
-    console.log('delete');
+    //button을 누른 li 태그를 가져옴
+    const li = event.target.parentElement;
+    //해당 li 태그 삭제
+    li.remove();
 }
 
 function paintToDo(newTodo) {   //입력값 표시하기
