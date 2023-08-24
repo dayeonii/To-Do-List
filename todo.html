@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To Do List</title>
-    
+    <link rel="stylesheet" href="todo.css" />
 </head>
 <body>
-    <h1>To-Do List</h1>
+    <h1 id="title">💙 To-Do List 💙</h1>
 
     <!-- 입력 양식 -->
     <form id="todo-form">
-        <input type="text" placeholder="할 일을 입력해 주세요." required />
+        <input id="todo-form" type="text" placeholder="할 일을 입력해 주세요." required />
+        <button id="addButton" type="submit">Add</button>
     </form>
 
     <!-- 화면에 보여줄 todo들 -->
