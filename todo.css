@@ -2,6 +2,7 @@
     background-color: rgba(224, 243, 255, 0.678);
     border-radius: 10px;    /*모서리 둥글게*/
     color: rgb(0, 0, 0);
+    box-shadow: 4px 5px 5px gray;
     text-align: center;     /*글자 정렬 중앙*/
     padding: 10px;
 }
@@ -16,6 +17,7 @@
     width: 7%;
     height: 36px;
     background-color: rgb(185, 196, 216);
+    box-shadow: 2px 3px 3px gray;
     border: 1px solid;
     border-radius: 3px;
     position: fixed;
@@ -28,4 +30,5 @@
     padding: 20px 40px 20px;
     list-style-type: '📌 ';    /*list icon*/
     line-height: 1.8;   /*목록 글자 상하 간격*/
+    box-shadow: 4px 5px 5px gray;
 }
